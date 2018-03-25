@@ -2,23 +2,23 @@
 
 
 git init
-git add .
+git add --all
 git commit -m "Initial commit"
 
 pip install gunicorn
 
 pip freeze > requirements.txt
 
-git add .
+git add --all
 git commit -m "requirements"
 
 #Create a Procfile without extention
 
-git add .
+git add --all
 git commit -m "Procfile"
 
 #Create a runtime to specify Python version
-git add .
+git add --all
 git commit -m "runtime.txt"
 
 
