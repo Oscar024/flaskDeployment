@@ -5,6 +5,8 @@ git init
 git add .
 git commit -m "Initial commit"
 
+pip install gunicorn
+
 pip freeze > requirements.txt
 
 git add .
