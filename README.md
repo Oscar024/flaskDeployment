@@ -10,6 +10,8 @@ wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 heroku login
 
+heroku create
+
 heroku local web
 
 git push heroku master
